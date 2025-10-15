@@ -22,7 +22,7 @@ jobs:
         with:
           repository: mirkarlar/fotoshow
           path: fotoshow
-          token: ${{ secrets.CHECKOUT_PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 1
 
       - name: Set up JDK
